@@ -1,0 +1,32 @@
+.container__header {
+  padding: 1rem;
+
+  margin-bottom: 2rem;
+
+  .header__form {
+    @include Flex(center, center, row);
+
+    .form-group {
+      display: flex;
+      flex-direction: row;
+
+      input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+      button {
+        border: 1px solid $white-color-20;
+        border-top-right-radius: 0.375rem;
+        border-bottom-right-radius: 0.375rem;
+        border-left: none;
+
+        padding: 0 0.75rem;
+
+        color: $black-color;
+
+        text-transform: uppercase;
+      }
+    }
+  }
+}

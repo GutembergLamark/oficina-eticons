@@ -1,0 +1,35 @@
+$white-color: #fff;
+$white-color-20: #ced4da;
+
+$black-color: #212529;
+
+$button-color: #3b5998;
+
+body,
+header,
+main,
+footer,
+div,
+form,
+h1,
+h2,
+h3,
+p,
+span,
+button,
+img,
+section,
+article {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
